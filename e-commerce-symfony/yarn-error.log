@@ -1,0 +1,57 @@
+Arguments: 
+  /home/ryzz/.nvm/versions/node/v10.13.0/bin/node /usr/share/yarn/bin/yarn.js add @react-router
+
+PATH: 
+  /home/ryzz/.symfony/bin:/home/ryzz/Android/Sdk/tools:/home/ryzz/Android/Sdk/platforms-tools:/home/ryzz/.symfony/bin:/home/ryzz/Android/Sdk/tools:/home/ryzz/Android/Sdk/platforms-tools:/home/ryzz/.nvm/versions/node/v10.13.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ryzz/Bureau/gradle-5.6.4/bin:/home/ryzz/Bureau/gradle-5.6.4/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  10.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@react-router: Request "https://registry.yarnpkg.com/@react-router" returned a 405
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66956:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140665:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141637:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+      "devDependencies": {
+          "@symfony/webpack-encore": "^0.28.2",
+          "core-js": "^3.0.0",
+          "regenerator-runtime": "^0.13.2",
+          "webpack-notifier": "^1.6.0"
+      },
+      "license": "UNLICENSED",
+      "private": true,
+      "scripts": {
+          "dev-server": "encore dev-server",
+          "dev": "encore dev",
+          "watch": "encore dev --watch",
+          "build": "encore production --progress"
+      },
+      "dependencies": {
+          "@babel/preset-react": "^7.7.4",
+          "prop-types": "^15.7.2",
+          "react": "^16.12.0",
+          "react-dom": "^16.12.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
